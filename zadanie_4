@@ -1,0 +1,28 @@
+# 1. Функция для сложения двух чисел
+def add_numbers(a, b):
+    return a + b
+
+# 2. Функция для подсчета суммы элементов списка
+def sum_of_list(numbers):
+    return sum(numbers)
+
+# 3. Функция для объединения строк с разделителем
+def join_strings(*args, separator=" "):
+    return separator.join(args)
+
+# 4. Функция для разделения строки по заданному символу
+def split_string(s, delimiter=" "):
+    return s.split(delimiter)
+
+
+# add_numbers
+print(add_numbers(5, 3))  # Output: 8
+
+# sum_of_list
+print(sum_of_list([1, 2, 3, 4]))  # Output: 10
+
+# join_strings
+print(join_strings("Hello", "world", separator=", "))  # Output: "Hello, world"
+
+# split_string
+print(split_string("Hello world", delimiter=" "))  # Output: ['Hello', 'world']
